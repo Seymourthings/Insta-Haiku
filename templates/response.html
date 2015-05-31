@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+            <title> Insta Haiku </title>
+            <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/471905755151339524/J4agoDnj.png">
+                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+                <script src="//cdn.lukej.me/instafeed.js/1.2.0/instafeed.min.js"></script>
+                <!--------INSTAFEED CODE ------------------>
+                <script>
+           var feed = new Instafeed({
+       		get: 'tagged',
+        	tagName: '{{phrase}}',
+            limit: 21,
+            sortby: 'least-recent',
+        	clientId: '4b844fd9213c453a9cd1f38d63604970',
+    		});
+    		feed.run();
+      </script>
+                <!-----------END OF INSTAFEED CODE-------------->
+                <style type = "text/css">
+         html{
+         margin: 0 px;
+         padding: 0px;
+         border: 0px;
+         }
+         #word{
+         color:#DDDDDD;
+         font-size: 68px;
+         font-weight: 500;
+         }
+         h1{
+         font-family: 'Big Caslon';
+         color: #001f3f;
+         font-size: 48px;
+         font-weight: 500;
+         }
+         #display{
+         font-family: 'Big Caslon';
+         color: #85144b;
+         font-size: 28px;
+         font-weight: 50;
+         }
+         #form{
+         position: absolute;
+         top: 0px;
+         left: 98%;
+         margin-left:-250px;
+         }
+         #result{
+         font-family: 'Big Caslon';
+         color: #85144b;;
+         font-size: 20px;
+         font-weight: 100;
+         }
+
+
+    	#instafeed img {
+        width: 150px;
+	    height: 150px;
+        padding: 6px;
+        border-radius: 150px;
+        opacity:0.65;
+  		filter:alpha(opacity=65)
+		}
+        #instafeed img:hover{
+  		opacity:1;
+        filter:alpha(opacity=100);
+		}
+        body{
+    	background: url("http://i.imgur.com/md4V8jE.jpg");
+    	background-size: cover;
+        }
+    
+      </style>
+            </head>
+            <body>
+                <h1 style="text-align: center"> I N S T A &nbsp;  H A I K U
+                </a>
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                        <div id = "word">
+                            <center>"{{phrase}}"</center>
+                        </div>
+                            </h1>
+                            <div id = "display">
+                                <center> Number of Syllables : </center>
+                            </div>
+                            <div id = "result">
+                                <center>
+
+                                    <p>
+                                {{result}}
+                                    </p>
+                                    </center>
+                                </div>
+                            <div id="form">
+                            <form action = "/response" , method="POST">
+                                <br>
+                                            <input type="text" name="name">
+                                                        <input type="submit" value="Search Again">
+                                                        </form>
+                            </div>
+                            <div id = "rainy">
+                            <iframe width="0" height="0" src="http://www.rainymood.com" title="Rainy Mood" scrolling="no" frameborder="0"></iframe>
+                            </div>
+
+                                <center> <div id="instafeed"></div> </center>
+
+                        </body>
+                    </html>
+                </html>
