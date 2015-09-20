@@ -10,8 +10,14 @@ Inappropriate phrases/words do not return images.
 Website:
 http://instant-haiku.appspot.com/
 
-IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-            III
-            III
-            III
-            III
+IIIIIIIIIIIIIIIIIIIIIIIIII                HHH           HHH
+            IIII                          HHH           HHH
+            IIII                          HHH           HHH
+            IIII                          HHH           HHH
+            IIII                          HHH           HHH  
+            IIII                          HHHHHHHHHHHHHHHHH  
+            IIII                          HHH           HHH  
+            IIII                          HHH           HHH  
+            IIII                          HHH           HHH
+            IIII                          HHH           HHH
+IIIIIIIIIIIIIIIIIIIIIIIIII                HHH           HHH     
