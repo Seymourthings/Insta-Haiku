@@ -10,4 +10,4 @@ Inappropriate phrases/words do not return images.
 Website:
 http://instant-haiku.appspot.com/
 
-TODO: download the instafeed minified file from here: https://github.com/stevenschobert/instafeed.js/
+TODO: deploy master
